@@ -46,9 +46,11 @@ Installing pythong libaries for video display
  
 ### Run
 To train the agent (no video)
+
     python3 lunar_lander.py
 
 To train the agent and demo with a nice video
+
     python3 video_demo.py
 
 Now you can play video.mp4 file to watch the demo (video.mp4 should be created in this directory)
