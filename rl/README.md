@@ -40,6 +40,7 @@ Reinforcement learning is a powerful tool for solving complex problems where tra
 ## Common RL algorithms
 ### Value-based methods
 Q-learning: A popular algorithm that learns the Q-value function, which estimates the expected future reward for taking a specific action in a given state
+
 	• Updates the Q-value based on the Bellman equation.
 	• Q(s, a) ← Q(s, a) + α [r + γ max Q(s', a') - Q(s, a)]
 		• α: Learning rate
@@ -48,15 +49,18 @@ Q-learning: A popular algorithm that learns the Q-value function, which estimate
 SARSA (State-Action-Reward-State-Action): Similar to Q-learning, but uses on-policy learning, meaning the agent follows its current policy while learning
 
 Deep Q-learning: Combines Q-learning with deep neural networks for handling large state and action spaces
+
 	• Uses deep neural networks to approximate the Q-function.
 	• Handles high-dimensional state spaces, such as images.
 
 ### Policy-based methods
 Policy gradient: Optimizes the policy directly to maximize expected rewards
+
 	• Directly optimize the policy by adjusting the parameters to maximize expected reward.
 	• Examples: REINFORCE algorithm, Proximal Policy Optimization (PPO).
 
 Actor-Critic: Combines value-based and policy-based methods, using both a value function and a policy
+
 	• Combine value-based and policy-based methods.
 	• Use two models: an actor (policy) and a critic (value function).
 
