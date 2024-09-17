@@ -50,3 +50,5 @@ To train the agent (no video)
 
 To train the agent and demo with a nice video
     python3 video_demo.py
+
+Now you can play video.mp4 file to watch the demo (video.mp4 should be created in this directory)
