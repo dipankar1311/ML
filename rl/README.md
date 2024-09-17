@@ -16,7 +16,7 @@ Reward: numerical value indicating the outcome of an action
 ## RL process / step
 Initialization: The agent starts in an initial state
 
-$Action: The agent chooses an action based on its current state and policy
+Action: The agent chooses an action based on its current state and policy
 
 Transition: The environment transitions to a new state based on the agent's action
 
